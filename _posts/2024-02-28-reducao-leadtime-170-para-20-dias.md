@@ -35,3 +35,7 @@ Mas o desafio não era apenas priorização, a priorização foi apenas o ponto 
 * O desafio da documentação era apliado pela constante mudança nas prioridades, reduzindo drasticamente a disponibilidade dos profissionais a ataur na documentação.
 
 Formou-se a tempestade perfeita. Um círculo vicioso que precisava ser rompido foi a mim que a liderança da tecnologia da empresa confiou esse desafio.
+
+## Tirando a carroça da frente dos bois
+
+A primeira frente que eu decidi focar foi a priorização e planejamento. Entrei em contato com as áreas de negócio que atendíamos para alinhar que os desenvolvedores do meu time seriam orientados a não aceitar demandas que não estivessem formalizadas, e que atenderiam conforme a prioridade definida pelo responsável pelo produto. Nesse momento estávamos sem PO, portanto essa demanda ficou concentrada no PM. Feito esse alinhamento, fiz o acompanhamento diário de perto para me certificar de que essa estratégia estava sendo cumprida, afinal, "a cultura come a estratégia todos os dias no café da manhã" (não foi exatamente isso que Peter Drucker disse, mas foi assim que ficou popular `¯\_(ツ)_/¯`). Como eu já esperava, levou meses para que esse comportamento, até então intrínsico na cultura da empresa, se tornar exceção.
