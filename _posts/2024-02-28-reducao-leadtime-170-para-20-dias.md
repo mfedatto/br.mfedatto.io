@@ -39,3 +39,15 @@ Formou-se a tempestade perfeita. Um círculo vicioso que precisava ser rompido f
 ## Tirando a carroça da frente dos bois
 
 A primeira frente que eu decidi focar foi a priorização e planejamento. Entrei em contato com as áreas de negócio que atendíamos para alinhar que os desenvolvedores do meu time seriam orientados a não aceitar demandas que não estivessem formalizadas, e que atenderiam conforme a prioridade definida pelo responsável pelo produto. Nesse momento estávamos sem PO, portanto essa demanda ficou concentrada no PM. Feito esse alinhamento, fiz o acompanhamento diário de perto para me certificar de que essa estratégia estava sendo cumprida, afinal, "a cultura come a estratégia todos os dias no café da manhã" (não foi exatamente isso que Peter Drucker disse, mas foi assim que ficou popular `¯\_(ツ)_/¯`). Como eu já esperava, levou meses para que esse comportamento, até então intrínsico na cultura da empresa, se tornar exceção.
+
+Feito o alinhamento e os envolvidos concentrando as demandas no PM, que dominava o negócio e o produto mas não conseguia dar conta de escrever as user stories no detalhamento necessário dado o momento do time, ficou evidente não conseguiríamos evoluir sem um PO, que já estava em processo de contratação.
+
+Ao fim da minha terceira semana algumas coisas ficaram muito claras:
+
+* O PM apenas repassava as demandas para o time.
+  * Não havia análise de prioridade da demanda frente às demais em curso (não havia fila, tudo chegava e era iniciado).
+  * Não havia alinhamento com o time sobre a dor a ser resolvida, as demandas eram mastigadas pelo usuário ou pelo líder técnico e o desenvovledor pouco sabia sobre o contexto amplo a ser impactado pelo seu trabalho.
+  * Não havia formalização do escopo da demanda, dando margem ampla para extensão do trabalho a ser feito para entregar a demanda.
+  * Não havia qualquer estimativa do tempo necessário para entrega da demanda.
+* O líder técnico concentrava em si todo o entendimento e análise da demanda, orientando o desenvolvedor da alteração a sesr feita direto em código.
+  * 
