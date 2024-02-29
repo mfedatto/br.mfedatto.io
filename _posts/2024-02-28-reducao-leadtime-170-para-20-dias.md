@@ -18,7 +18,7 @@ tags:
 - "liderança"
 ---
 
-<img src="/assets/img/lead-time-reduction.png" alt="{{ page.title }}" />
+<img src="/assets/img/lead-time-reduction.png" alt="{{ page.title }}" style="border-radius: 15px;" />
 
 Quando a [PagueVeloz Serasa](https://pagueveloz.com.br/) me convidou para avaliar a oportunidade para Coordenador de Desenvolvimento de Software, me foi informado que o time estava trabalhando num Kanban com um rítmo acelerado de entrada de novas demandas, levando-os a acreditar que a dinâmica do time não se adequaria ao Scrum. Pra quem só tem martelo todo problema é prego, mas o Scrum é apenas uma das muitas ferramentas que carrego na minha bagagem. Avançamos no processo e fui selecionado.
 
