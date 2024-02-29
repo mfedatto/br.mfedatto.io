@@ -50,7 +50,7 @@ Sou coordenador de desenvolvimento de software experiente, com histórico compro
         {% if post.categories contains "Cases" %}
             <div class="swiper-slide" style="display: inline-block;">
                 <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="display: inline-block; 3: 120px; height: 150px; border-radius: 8%; width: 150px;float: left; margin-right: 10px;" />
-                <h3 style="font-size: 1.2rem;text-align: left;"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <h3 style="font-size: 1.2rem; text-align: left; margin: 8px 0 8px 0; padding: 0;"><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 <p style="font-size: 14px; text-align: left; line-height: 21px;">
                     {{ post.excerpt }}
                 </p>
