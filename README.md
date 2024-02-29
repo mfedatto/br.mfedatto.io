@@ -15,7 +15,6 @@ Sou coordenador de desenvolvimento de software experiente, com histórico compro
     }
 
     body {
-      background: #eee;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 14px;
       color: #000;
@@ -31,7 +30,6 @@ Sou coordenador de desenvolvimento de software experiente, com histórico compro
     .swiper-slide {
       text-align: center;
       font-size: 18px;
-      background: #fff;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -51,21 +49,21 @@ Sou coordenador de desenvolvimento de software experiente, com histórico compro
         {% for post in site.posts %}
         {% if post.categories contains "Cases" %}
             <div class="swiper-slide">
-                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="width: 120px; height: 120px; border-radius: 5%;" />
+                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="width: 120px; height: 120px; border-radius: 8%;" />
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 {{ post.excerpt }}
             </div>
             <div class="swiper-slide">
-                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="width: 120px; height: 120px; border-radius: 5%;" />
+                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="width: 120px; height: 120px; border-radius: 8%;" />
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 {{ post.excerpt }}
             </div>
             <div class="swiper-slide">
-                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="width: 120px; height: 120px; border-radius: 5%;" />
+                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="width: 120px; height: 120px; border-radius: 8%;" />
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 {{ post.excerpt }}
             </div>
-            <div class="swiper-slide border-radius: 5%;">
+            <div class="swiper-slide border-radius: 8%;">
                 <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="width: 120px; height: 120px;" />
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 {{ post.excerpt }}
