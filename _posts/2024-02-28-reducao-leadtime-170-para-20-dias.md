@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 author: "M. Fedatto"
 title: "Redução do lead time de 170 para 20 dias"
 excerpt: "Como conduzi a avaliação e promovi mudanças no fluxo de trabalho do time em busca de maior qualidade e produtividade, alcançando uma redução no lead time médio de 170 para 20 dias."
@@ -42,7 +43,7 @@ A primeira frente que eu decidi focar foi a priorização e planejamento. Entrei
 
 Feito o alinhamento e os envolvidos concentrando as demandas no PM, que dominava o negócio e o produto mas não conseguia dar conta de escrever as user stories no detalhamento necessário dado o momento do time, ficou evidente não conseguiríamos evoluir sem um PO, que já estava em processo de contratação.
 
-Ao fim da minha terceira semana algumas coisas ficaram muito claras:
+Ao fim da minha terceira semana algumas coisas já estávam muito claras:
 
 * O PM apenas repassava as demandas para o time.
   * Não havia análise de prioridade da demanda frente às demais em curso (não havia fila, tudo chegava e era iniciado).
@@ -51,3 +52,16 @@ Ao fim da minha terceira semana algumas coisas ficaram muito claras:
   * Não havia qualquer estimativa do tempo necessário para entrega da demanda.
 * O líder técnico concentrava em si todo o entendimento e análise da demanda, orientando o desenvolvedor da alteração a sesr feita direto em código.
   * 
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://br-mfedatto-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
