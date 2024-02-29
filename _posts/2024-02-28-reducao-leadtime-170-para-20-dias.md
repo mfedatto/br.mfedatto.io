@@ -4,6 +4,7 @@ comments: true
 author: "M. Fedatto"
 title: "Redução do lead time de 170 para 20 dias"
 excerpt: "Como conduzi a avaliação e promovi mudanças no fluxo de trabalho do time em busca de maior qualidade e produtividade, alcançando uma redução no lead time médio de 170 para 20 dias."
+thumbnail: "/assets/img/lead-time-reduction_homecardthumb.jpg"
 permalink: "/pagueveloz-serasa/reducao-do-lead-time/"
 categories:
 - "Cases"
