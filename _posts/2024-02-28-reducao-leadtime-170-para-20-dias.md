@@ -18,6 +18,8 @@ tags:
 - "liderança"
 ---
 
+<img src="{{ thumbnail }}" alt="{{ title }}" />
+
 Quando a [PagueVeloz Serasa](https://pagueveloz.com.br/) me convidou para avaliar a oportunidade para Coordenador de Desenvolvimento de Software, me foi informado que o time estava trabalhando num Kanban com um rítmo acelerado de entrada de novas demandas, levando-os a acreditar que a dinâmica do time não se adequaria ao Scrum. Pra quem só tem martelo todo problema é prego, mas o Scrum é apenas uma das muitas ferramentas que carrego na minha bagagem. Avançamos no processo e fui selecionado.
 
 A oportunidade era híbrida. Morando em São Paulo eu podia escolher entre o escritório da [Serasa Experian](https://serasa.com.br/) no Morumbi ou o excritório da PagueVeloz em Santana. Em ambos casos eu não teria acesso ao time, pois metade estava presencialmente em Blumenau e a outra metade espalhada pelo Brasil.
