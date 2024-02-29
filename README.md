@@ -15,6 +15,7 @@ Sou coordenador de desenvolvimento de software experiente, com histórico compro
     {% endfor %}
 </ul>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 <swiper-container>
   <swiper-slide>Slide 1</swiper-slide>
   <swiper-slide>Slide 2</swiper-slide>
