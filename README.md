@@ -4,21 +4,10 @@ Sou coordenador de desenvolvimento de software experiente, com histórico compro
 
 ## Cases
 
-<ul>
-    {% for post in site.posts %}
-    {% if post.categories contains "Cases" %}
-    <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      {{ post.excerpt }}
-    </li>
-    {% endif %}
-    {% endfor %}
-</ul>
-
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <!-- Demo styles -->
-  <style>
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- Demo styles -->
+<style>
     html,
     body {
       position: relative;
@@ -54,42 +43,42 @@ Sou coordenador de desenvolvimento de software experiente, com histórico compro
       height: 100%;
       object-fit: cover;
     }
-  </style>
-  <!-- Swiper -->
-  <div class="swiper mySwiper">
+</style>
+<!-- Swiper -->
+
+<div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
+        {% for post in site.posts %}
+        {% if post.categories contains "Cases" %}
+            <div class="swiper-slide">
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                {{ post.excerpt }}
+            </div>
+        {% endif %}
+        {% endfor %}
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <div class="swiper-pagination"></div>
-  </div>
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <!-- Initialize Swiper -->
-  <script>
+</div>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
     var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
     });
-  </script>
+</script>
