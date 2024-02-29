@@ -5,7 +5,6 @@ author: "M. Fedatto"
 title: "Redução do lead time de 170 para 20 dias"
 excerpt: "Como conduzi a avaliação e promovi mudanças no fluxo de trabalho do time em busca de maior qualidade e produtividade, alcançando uma redução no lead time médio de 170 para 20 dias."
 thumbnail: "/assets/img/lead-time-reduction_thumb.jpg"
-image: "/assets/img/lead-time-reduction.jpg"
 permalink: "/pagueveloz-serasa/reducao-do-lead-time/"
 categories:
 - "Cases"
@@ -19,7 +18,7 @@ tags:
 - "liderança"
 ---
 
-<img src="{{ page.image }}" alt="{{ page.title }}" />
+<img src="/assets/img/lead-time-reduction.jpg" alt="{{ page.title }}" />
 
 Quando a [PagueVeloz Serasa](https://pagueveloz.com.br/) me convidou para avaliar a oportunidade para Coordenador de Desenvolvimento de Software, me foi informado que o time estava trabalhando num Kanban com um rítmo acelerado de entrada de novas demandas, levando-os a acreditar que a dinâmica do time não se adequaria ao Scrum. Pra quem só tem martelo todo problema é prego, mas o Scrum é apenas uma das muitas ferramentas que carrego na minha bagagem. Avançamos no processo e fui selecionado.
 
