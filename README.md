@@ -46,14 +46,22 @@ Sou coordenador de desenvolvimento de software experiente, com histórico compro
 </style>
 <!-- Swiper -->
 
-
-<link href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<div class="container px-4 py-5" id="custom-cards">
-    <h2>Cases</h2>
 <div class="swiper mySwiper">
     <div class="swiper-wrapper">
         {% for post in site.posts %}
         {% if post.categories contains "Cases" %}
+            <div class="swiper-slide">
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                {{ post.excerpt }}
+            </div>
+            <div class="swiper-slide">
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                {{ post.excerpt }}
+            </div>
+            <div class="swiper-slide">
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                {{ post.excerpt }}
+            </div>
             <div class="swiper-slide">
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 {{ post.excerpt }}
@@ -65,9 +73,6 @@ Sou coordenador de desenvolvimento de software experiente, com histórico compro
     <div class="swiper-button-prev"></div>
     <div class="swiper-pagination"></div>
 </div>
-      
-    </div>
-  </div>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <!-- Initialize Swiper -->
