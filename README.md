@@ -51,22 +51,22 @@ Sou coordenador de desenvolvimento de software experiente, com histórico compro
         {% for post in site.posts %}
         {% if post.categories contains "Cases" %}
             <div class="swiper-slide">
-                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
+                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="width: 120px; height: 120px;" />
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 {{ post.excerpt }}
             </div>
             <div class="swiper-slide">
-                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
+                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="width: 120px; height: 120px;" />
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 {{ post.excerpt }}
             </div>
             <div class="swiper-slide">
-                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
+                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="width: 120px; height: 120px;" />
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 {{ post.excerpt }}
             </div>
             <div class="swiper-slide">
-                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
+                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="width: 120px; height: 120px;" />
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 {{ post.excerpt }}
             </div>
