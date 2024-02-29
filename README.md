@@ -8,20 +8,6 @@ Sou coordenador de desenvolvimento de software experiente, com histórico compro
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <!-- Demo styles -->
 <style>
-    html,
-    body {
-      position: relative;
-      height: 100%;
-    }
-
-    body {
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      margin: 0;
-      padding: 0;
-    }
-
     .swiper {
       width: 100%;
       height: 100%;
