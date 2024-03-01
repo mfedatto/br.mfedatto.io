@@ -22,6 +22,10 @@ tags:
 
 Quando assumi esse time, o lead time, tempo entre o recebimento da demanda e a entrega, estava na média de 170 dias, com demandas já iniciadas e ainda não entregues a mais de 200 dias. Pull requests levavam semanas para serem finalizados, com alguns pendentes, e em andamento (de acordo com o time) a mais de 10 meses. Metade do time estava sempre sobrecarregado, fazendo horas extras com muita frequencia, enquanto outra metada chegava a ficar vários dias seguidos sem atividade.
 
+## Montanha a baixo
+
+
+
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
