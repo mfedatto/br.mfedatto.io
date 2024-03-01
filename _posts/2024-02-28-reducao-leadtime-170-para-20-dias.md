@@ -28,16 +28,9 @@ Além de conhecimento teórico e experiências de fracasso, também tenho muita 
 * Os pull requests levavam semanas pra serem finalizados, não sendo raro algum PR levar meses para ser finalizado. Quando assumi o time havia mais de 10 PRs _em andamento_ a mais de 10 **meses**.
 * O líder técnico assumia pra si todo o trabalho entendimento do trabalho a ser feito para entregar a demanda, privando dos devs a oportunidade de ampliar seu conhecimento no negócio da empresa e desenvolver suas habilidades em traduzir em intervenções na tecnologia as necessidades de negócio, o que é da competência dos devs.
 * Tanto o líder técnico quanto o PM e os próprios steakholders concentravam assuntos e sistemas em desenvolvedores que já dominavam a questão, que com frequência ficavam sobrecarregados e fazendo hora extra recorrente, enquanto os desenvolvedores com menos experiência com o produto não tinham oportunidade de evoluir nesse aspecto e com frequência ficavam dias seguidos sem atividade.
+* Os desenvolvedores não compartilhavam com o restante do time as dificuldades encontradas e as soluções adotadas, levando outros desenvolvedores a depreender tempo valioso buscando solução para problemas que problemas que já tem solução ou já deixaram de ser um problema.
+* O time todo se preocupava constantemente em manter as atividadaes em andamento e iniciar o quanto antes qualquer nova demanda, alcançando um WIP (Work in Progress) médio de 12 atividades em andamento por pessoa.
 
-{% if page.comments %}
-<div id="disqus_thread"></div>
-<script>
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://br-mfedatto-io.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
+Desses problemas identificados, conduzi com o time o entendimento de quais são as implicações desses problemas e os motivos deles serem crítiocos:
+
+* 
