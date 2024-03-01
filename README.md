@@ -32,7 +32,6 @@ Sou engenheiro de software experiente, com histórico comprovado na liderança d
 
 </style>
 <!-- Swiper -->
-
 <div class="swiper mySwiper">
     <div class="swiper-wrapper">
         {% for post in site.posts %}
@@ -46,6 +45,65 @@ Sou engenheiro de software experiente, com histórico comprovado na liderança d
             </div>
         {% endif %}
         {% endfor %}
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</div>
+<!-- Swiper -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div class="card-body">
+            <div class="lc-block mb-4">
+                <div editable="rich">
+                    <p><em class="rfs-8 text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et metus id ligula malesuada placerat sit amet quis enim. Aliquam erat volutpat. In pellentesque scelerisque auctor.&nbsp;</em></p>
+                </div>
+            </div>
+            <div class="lc-block d-inline-flex">
+                <div class="lc-block me-3" style="min-width:72px">
+                    <img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=5" width="72" height="72">
+                </div>
+                <div class="lc-block">
+                    <div editable="rich">
+                        <p class="h5">Leah H. Middaugh</p>
+                        <p class="text-muted">Patient educator&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="lc-block mb-4">
+                <div editable="rich">
+                    <p><em class="rfs-8 text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et metus id ligula malesuada placerat sit amet quis enim. Aliquam erat volutpat. In pellentesque scelerisque auctor.&nbsp;</em></p>
+                </div>
+            </div>
+            <div class="lc-block d-inline-flex">
+                <div class="lc-block me-3" style="min-width:48px">
+                    <img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=7" width="64" height="64">
+                </div>
+                <div class="lc-block">
+                    <div editable="rich">
+                        <p class="h5">James M. Collinsworth</p>
+                        <p class="text-muted">Street Artist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</div>
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="display: inline-block;">
+            <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="display: inline-block; 3: 120px; height: 150px; border-radius: 8%; width: 150px;float: left; margin-right: 10px;" />
+            <h3 style="font-size: 1.2rem; text-align: left; margin: 8px 0 8px 0; padding: 0;"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p style="font-size: 14px; text-align: left; line-height: 21px;">
+                {{ post.excerpt }}
+            </p>
+        </div>
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
